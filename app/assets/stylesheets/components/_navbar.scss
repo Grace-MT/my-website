@@ -1,13 +1,20 @@
 .navbar {
-  // justify-content: left;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-items {
-  padding: 20px;
+  padding: 0px;
+  display: flex;
+  flex-grow: 1;
 }
 
 .navbar-items a:hover {
   background-color: #226765;
+}
+
+.navbar-brand {
+  margin: 0px;
 }
 
 .navbar-brand img {
@@ -26,13 +33,14 @@
 
 .navbar-links {
   display: flex;
+  margin: 10px;
 }
 
 .navbar-links a {
   color: #226765;
   opacity: 0.8;
   font-size: 30px;
-  padding: 10px 10px;
+  padding: 20px 20px;
 }
 .navbar-links a:hover {
   opacity: 1;

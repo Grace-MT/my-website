@@ -12,20 +12,19 @@
 
   <body>
     <div class="navbar">
-
-
-      <%= link_to "#", class: "navbar-brand" do %>
+      <%= link_to root_path, class: "navbar-brand" do %>
+      <%# <%= link_to "#", class: "navbar-brand" do %>
       <%= image_tag "logo.png", alt: "Logo" %>
     <% end %>
 
   <div class="navbar-items">
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#tech_stack">Tech Stack</a>
-      <a href="#travel">Travel</a>
-      <a href="#finance_tips">Finance</a>
-      <a href="#yoga_tips">Yoga</a>
-      <a href="#contact">Contact</a>
+      <%# <a class="active" href="#home">Home</a> %>
+      <a href="about">About</a>
+      <a href="tech_stack">Tech Stack</a>
+      <a href="travel">Travel</a>
+      <a href="finance_tips">Finance</a>
+      <a href="yoga_tips">Yoga</a>
+      <a href="contact">Contact</a>
   </div>
 
   <div class="navbar-links">
@@ -38,7 +37,6 @@
 
 </div>
 
-    <h1>The Spoon 🥄</h1>
 
     <%= yield %>
 
