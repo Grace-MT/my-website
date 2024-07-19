@@ -1,11 +1,39 @@
 .navbar {
-  justify-content: space-between;
+  // justify-content: left;
 }
 
-.navbar .navbar-collapse {
-  flex-grow: 0;
+.navbar-items {
+  padding: 20px;
 }
 
-.navbar .navbar-brand img {
-  width: 40px;
+.navbar-items a:hover {
+  background-color: #226765;
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+}
+
+.navbar a {
+  color: #F8F1F1;
+  text-decoration: none;
+  font-size: large;
+  padding: 10px 20px 10px 20px;
+}
+
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: #226765;
+  opacity: 0.8;
+  font-size: 30px;
+  padding: 10px 10px;
+}
+.navbar-links a:hover {
+  opacity: 1;
 }
