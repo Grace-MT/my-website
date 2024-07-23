@@ -1,0 +1,44 @@
+h2 {
+  color: #226765;
+  margin: 20px;
+  font-size: calc(0.6vw + 0.6vh);
+}
+
+img {
+  border-radius: 0%;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+.tech-scrollable-container {
+  overflow-y: auto;
+  width: 95%;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  background-color: #F8F1F1;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  align-items: center;
+  text-align: center;
+  max-height: fit-content;
+  max-width: fit-content;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}

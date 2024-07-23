@@ -1,12 +1,10 @@
 // Specific CSS for your home-page
-body {
-  justify-content: center;
-}
 
 .profile-pic {
   display: flex;
   justify-content: center;
 }
+
 
 img {
   border-radius: 50%;
@@ -27,6 +25,6 @@ img {
     margin-right: 300px;
     margin-bottom: 50px;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     text-align: center;
   }
