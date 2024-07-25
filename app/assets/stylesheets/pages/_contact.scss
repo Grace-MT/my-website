@@ -1,5 +1,29 @@
-.contact-links {
-background-color: red;
-align-items: center;
+// .contact-links {
+//   display: flex;
+//   margin: 10px;
+//   justify-content: center;
+//   height: 100px;
+//   margin-top: 100px;
+// }
 
+.contact-links {
+  display: flex;
+  margin: 10px;
+  height: 100px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.contact-links a {
+  color: #226765;
+  opacity: 0.8;
+  font-size: 100px;
+  padding: 20px 20px;
+}
+.contact-links a:hover {
+  opacity: 1;
+}
+
+footer {
+  margin-top: 120px;
 }
