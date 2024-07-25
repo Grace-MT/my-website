@@ -15,16 +15,22 @@ img {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
   width: 100%;
-  align-items: center;
   align-content: center;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 100%;
+  justify-content: center;
 }
 
 .tech-scrollable-container {
   overflow-y: auto;
   width: 95%;
-  align-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  margin: 30px;
 }
 
 .grid-item {
@@ -32,7 +38,7 @@ img {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   align-items: center;
   text-align: center;
-  max-height: fit-content;
+  height: auto;
   max-width: fit-content;
   margin: 5px;
   margin-bottom: 10px;

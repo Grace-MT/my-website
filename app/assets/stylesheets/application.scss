@@ -10,16 +10,26 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import 'pages/tech_stack';
+@import 'pages/home';
+@import 'pages/contact';
 
 * {
   letter-spacing: 0.5px;
 }
 
 
+.content-wrapper {
+  padding-top: 60px; /* Equal to the navbar height */
+  height: 100%;
+  overflow-y: auto; /* Enable scrolling for the content */
+  margin-top: 50px;
+}
+
 h1 {
   font-weight: 300;
   text-align: center;
-  margin: 10px;
+  // margin: 10px;
   font-size: 30px;
 }
 
@@ -40,7 +50,7 @@ body {
   background: #F8F1F1;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   margin: auto;
-  width: 100%;
+  width: 80%;
   padding: 30px;
   font-size: 16px;
   margin-top: 20px;
@@ -58,7 +68,7 @@ p {
   background: #F8F1F1;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   margin: auto;
-  width: 100%;
+  width: 80%;
   padding: 30px;
   font-size: 16px;
   margin-top: 20px;
@@ -82,15 +92,14 @@ p {
 }
 
 footer {
+  padding: 20px;
   align-items: center;
-  position: fixed;
+  // position: relative;
   bottom: 0;
-  left: 0;
   width: 100%;
-  // padding: 20px;
   text-align: center;
-  // justify-content: center;
-  margin-bottom: 20px;
+  justify-content: center;
+  z-index: 0;
 }
 
 ::-webkit-scrollbar {

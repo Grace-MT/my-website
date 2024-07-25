@@ -17,34 +17,38 @@
       <%= image_tag "logo.png", alt: "Logo" %>
     <% end %>
 
-  <div class="navbar-items">
-      <%# <a class="active" href="#home">Home</a> %>
-      <a href="about">About</a>
-      <a href="tech_stack">Tech Stack</a>
-      <a href="travel">Travel</a>
-      <a href="finance_tips">Finance</a>
-      <a href="yoga_tips">Yoga</a>
-      <a href="contact">Contact</a>
-  </div>
+    <div class="navbar-items">
+        <%# <a class="active" href="#home">Home</a> %>
+        <a href="about">About</a>
+        <a href="tech_stack">Tech Stack</a>
+        <a href="travel">Travel</a>
+        <a href="finance_tips">Finance</a>
+        <a href="yoga_tips">Yoga</a>
+        <a href="books">Reading Recs</a>
+        <a href="podcats">Podcats Recs</a>
+        <a href="contact">Contact</a>
+    </div>
 
-  <div class="navbar-links">
-    <%# <a href="#"><i class="fas fa-envelope"></i></a> %>
-    <a href="mailto:gracemthompson91@gmail.com" class="nav-link"><i class="fas fa-envelope"></i></a>
-    <a href="https://www.linkedin.com/in/grace-m-thompson/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-    <a href="https://www.instagram.com/gracemthompson_/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/Grace-MT" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-  </div>
+      <div class="navbar-links">
+        <%# <a href="#"><i class="fas fa-envelope"></i></a> %>
+        <a href="mailto:gracemthompson91@gmail.com" class="nav-link"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/grace-m-thompson/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/gracemthompson_/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/Grace-MT" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+      </div>
 
-</div>
+    </div>
 
+  <div class="content-wrapper">
 
     <%= yield %>
 
+    <footer>
+      Made with 🤍
+    </footer>
+
+  </div>
 
 
-  <footer>
-    Made with 🤍
-  </footer>
-
-</body>
+  </body>
 </html>

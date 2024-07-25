@@ -21,4 +21,10 @@ class PagesController < ApplicationController
   def yoga_tips
   end
 
+  def books
+  end
+
+  def podcasts
+  end
+
 end

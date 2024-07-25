@@ -11,7 +11,10 @@ Rails.application.routes.draw do
   get "finance_tips", to: "pages#finance_tips"
   get "travel", to: "pages#travel"
   get "yoga_tips", to: "pages#yoga_tips"
+  get "books", to: "pages#books"
+  get "podcasts", to: "pages#podcasts"
   get "contact", to: "pages#contact"
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
