@@ -1,12 +1,4 @@
 // Specific CSS for your home-page
-
-
-
-
-h1 {
-  padding: 0px;
-}
-
 .profile-pic {
   display: flex;
   justify-content: center;
@@ -14,7 +6,8 @@ h1 {
 
 .home-img {
   border-radius: 50%;
-  margin: 20px;
+  margin-top: 10px;
+  // margin: 20px;
   height: 350px;
   width: 275px;
 }
