@@ -10,13 +10,6 @@
   text-align: center;
   height: max-content;
 }
-
-h2 {
-  color: #F8F1F1;
-  margin: 30px;
-  font-size: 25px;
-}
-
 .travel-grid-container {
   margin: 30px;
 }
@@ -46,13 +39,12 @@ h3 {
   font-weight: bold;
 }
 
-img {
+.travel-page img {
   height: 70%;
   width: 85%;
 }
 
-
-.travel-grid-container2023 {
+.travel-grid-container2024, .travel-grid-container2023, .travel-grid-container2022, .travel-grid-container2021 {
   display: grid;
   justify-content: start;
   grid-template-columns: 350px 350px 350px 350px;
