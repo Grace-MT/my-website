@@ -12,6 +12,30 @@
   line-height: 1cm;
 }
 
+.podcast-card2 {
+  display: grid;
+  grid-template-columns: 420px 420px;
+  color: #226765;
+  background: #F8F1F1;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 40px;
+  text-align: justify;
+  line-height: 1cm;
+}
+
+.podcast-grid-container {
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  grid-template-columns: 420px 420px;
+  gap: 15px;
+  margin-left: 30px;
+  width: 85%;
+}
+
+
 
 .podcast-card img {
   height: 90%;
