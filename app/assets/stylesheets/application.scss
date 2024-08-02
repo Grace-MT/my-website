@@ -15,6 +15,7 @@
 @import 'pages/contact';
 @import 'pages/travel';
 @import 'pages/finance_tips';
+@import 'pages/podcasts';
 
 * {
   letter-spacing: 0.5px;
@@ -30,7 +31,8 @@
 h1 {
   font-weight: 300;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -54,7 +56,7 @@ body {
   margin: auto;
   width: 80%;
   padding: 30px;
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 20px;
   text-align: justify;
   height: max-content;
@@ -72,7 +74,7 @@ p {
   margin: auto;
   width: 80%;
   padding: 30px;
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 20px;
   height: max-content;
 }
@@ -102,6 +104,7 @@ footer {
   text-align: center;
   justify-content: center;
   z-index: 0;
+  font-size: 12px;
 }
 
 ::-webkit-scrollbar {

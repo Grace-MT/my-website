@@ -1,3 +1,8 @@
+.travel-page {
+align-content: center;
+justify-content: center;
+}
+
 .card-container2 {
   color: #226765;
   background: #F8F1F1;
@@ -5,49 +10,42 @@
   margin: auto;
   width: 80%;
   padding: 30px;
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 20px;
   text-align: center;
   height: max-content;
-}
-.travel-grid-container {
-  margin: 30px;
-}
-
-.travel-grid-container {
-  display: grid;
-  justify-content: start;
-  grid-template-columns: 350px 350px 350px;
-  gap: 10px;
 }
 
 .travel-grid-item {
   background-color: #F8F1F1;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  align-items: center;
+  align-content: center;
   text-align: center;
-  height: 320px;
-  width: 300px;
-  margin: 5px;
-  margin-bottom: 10px;
+  height: 250px;
+  width: 200px;
 }
 
 h3 {
   color: #226765;
   font-family: "Dancing Script", cursive;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
+  margin: 10px;
 }
 
 .travel-page img {
-  height: 70%;
+  height: 75%;
   width: 85%;
+  margin: 0px;
+  padding-top: 10px;
 }
 
 .travel-grid-container2024, .travel-grid-container2023, .travel-grid-container2022, .travel-grid-container2021 {
   display: grid;
   justify-content: start;
-  grid-template-columns: 350px 350px 350px 350px;
-  gap: 10px;
+  align-items: center;
+  grid-template-columns: 210px 210px 210px 210px 210px;
+  gap: 15px;
   margin-left: 30px;
+  width: 85%;
 }
